@@ -24,7 +24,7 @@ const storageModule = require('node-red-contrib-mysql-storage-plugin');
 const sqlConfig = {
   user: 'sa',
   password: 'myPassword',
-  server: 'SQL01',
+  host: 'SQL01',
   database: 'NodeRed',
   port: 3306
 };
@@ -54,7 +54,7 @@ Note that for sqlConfig I recommend storing all of the values in your .env file 
 const sqlConfig = {
   user: process.env.MYSQL_USER,
   password: process.env.MYSQL_PASSWORD,
-  server: process.env.MYSQL_SERVER,
+  host: process.env.MYSQL_SERVER,
   database: process.env.MYSQL_DATABASE,
   port: process.env.MYSQL_PORT
 };
