@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-mysql-storage-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node-RED Storage Plugin For MySQL",
   "main": "index.js",
   "scripts": {
