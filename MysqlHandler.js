@@ -55,12 +55,12 @@ const MysqlHandler = class MysqlHandler {
       this.pool.query(
         `SELECT * FROM ${tableName} WHERE Type = ?`,
         [type],
-        err => {
+        (err, results) => {
           if (err) {
             reject(err);
           } else {
             const returnStructure = [];
-            for (let i = 0; i < result.length; i += 1) {
+            for (let i = 0; i < results.length; i += 1) {
               const entry = result[i];
 
               if (entry.Path.indexOf('/') === -1 && path === '') {
