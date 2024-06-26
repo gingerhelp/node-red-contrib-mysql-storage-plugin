@@ -1,5 +1,5 @@
-Node Red Microsoft SQL Server Storage Plugin
-============================================
+Node Red MySQL Storage Plugin
+=============================
 
 This plugin allows you to store your flows and library entries in MySQL.  Thanks to adibenmati whose MongoDb storage plugin served as a template to create this one.
 
